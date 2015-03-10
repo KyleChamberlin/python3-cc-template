@@ -15,6 +15,6 @@ gh = login(user, password)
 
 repo = { 'name': '{{cookiecutter.repo_name}}', 'description': '{{cookiecutter.project_short_description}}' }
 
-success = gh.create_repo(repo)
+success = gh.create_repo(**repo)
 
 
