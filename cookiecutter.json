@@ -1,0 +1,14 @@
+{
+    "full_name": "Kyle Chamberlin",
+    "email": "kyle@chamberl.in",
+    "github_username": "kylechamberlin",
+    "project_name": "Python Project Name",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.repo_name|replace('-', '') }}",
+    "github_repo": "{{ cookiecutter.repo_name }}",
+    "year": "2015",
+    "version": "0.1.0",
+    "project_short_description": "{{ cookiecutter.project_name }} is a Python 3 package templated from kylechamberlin/python3-cc-template using cookiecutter",
+    "python_major_version": 3,
+    "python_minor_version": 4
+}
