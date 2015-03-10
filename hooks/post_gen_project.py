@@ -9,7 +9,7 @@ from github3 import login, github
 
 user = '{{ cookiecutter.github_username }}'
 
-password = getpass('Github password for {0}: '.format(user))
+password = '{{ cookiecutter.github_password }}'
 
 gh = login(user, password)
 

@@ -2,6 +2,7 @@
     "full_name": "Kyle Chamberlin",
     "email": "kyle@chamberl.in",
     "github_username": "kylechamberlin",
+    "github_password": "your password will not be stored, it is only used for auth",
     "project_name": "Python Project Name",
     "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
     "pkg_name": "{{ cookiecutter.repo_name|replace('-', '') }}",
