@@ -3,7 +3,7 @@ import pip
 from getpass import getpass
 import readline
 
-pip.main(['install', 'github3.py'])
+pip.main(['install', 'github3.py', '--user'])
 
 from github3 import login, Github
 
